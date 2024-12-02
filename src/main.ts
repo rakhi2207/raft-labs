@@ -7,7 +7,7 @@ import { Logger, LoggerErrorInterceptor, PinoLogger } from 'nestjs-pino';
 import { CoreModule } from './core/core.module';
 
 const SWAGGER_PREFIX = `${appConfig.apiPrefix}/swagger`;
-const SERVER_BASE_URL = `https://raft-labs.onrender.com/`;
+const SERVER_BASE_URL = `https://raft-labs.onrender.com`;
 const SWAGGER_URL = `${SERVER_BASE_URL}${SWAGGER_PREFIX}`;
 const SERVER_URL = `${SERVER_BASE_URL}${appConfig.apiPrefix}`;
 
